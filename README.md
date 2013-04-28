@@ -14,5 +14,5 @@ With regards to the MDT environment, I will only pull perfMon information from t
 #Acknowledgements
 http://nbalonso.com/the-logs-talk/
 
->#Contact
+#Contact
 These searches may not work as advertised in your environment. If you are attempting to report on specific data, or have a correction or addition, feel free to let me know via loyaltyarm@gmail.com.
