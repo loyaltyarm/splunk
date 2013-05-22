@@ -17,4 +17,4 @@
 *.app
 
 # Other
-.DS_Store
+*.DS_Store
