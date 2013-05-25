@@ -1,4 +1,5 @@
 >splunk for MDT
+======
 
 # Setup and Initial Thoughts
 For my MDT data, I wanted to continue to work to gauge the daily amount of data being catalogued by the Splunk master, as I am still testing on a free plan (must be under 500mb daily traffic). For the purposes of my MDT deployment log tests, I am only forwarding the BDD.LOG file to the Splunk server to searching. This is for several reasons, but capturing the number of logs on an MDT system for each deployed client can be especially painful to the daily total if your MDT deployment server is highly utilized like in my environment.
