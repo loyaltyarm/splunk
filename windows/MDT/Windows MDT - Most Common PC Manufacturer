@@ -6,7 +6,6 @@
 # any source file, and specifies a host for restricting results to a specific server.
 #
 # 
-# Free space value converted to inverse by subtracting from 100 as (original value is %)
 
 sourcetype="BDD" OR sourcetype="BDD-2" OR sourcetype="BDD-3" OR sourcetype="BDD-4"  AND "Make is now = *" AND host="<yourintendedhosthere>" | dedup source | rex "Make is now = (?<PCMAKE>.*?)]" | top 100 PCMAKE
 
