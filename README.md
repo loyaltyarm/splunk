@@ -11,6 +11,8 @@ Currently, I am building a performance monitoring environment for MDT and Deploy
 
 With regards to the MDT environment, I will only pull perfMon information from the MDT systems individually until I am able to gauge the amount of data used versus the Splunk daily limit.
 
+Update: I have now added several searches for MDT monitoring specific to image deployments. Check the Windows folder readme for more explicit details.
+
 #Acknowledgements
 http://nbalonso.com/the-logs-talk/
 
