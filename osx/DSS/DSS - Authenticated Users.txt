@@ -9,4 +9,4 @@
 # You may add "| eval USERNAME=ltrim(USERNAME, "AD-DOMAIN\^") |" before the <top> portion  of this search in order to remove the AD domain prefix if some of your users have logged
 # into your deploystudio server and have used a domain prefix, while others have not. Change AD-DOMAIN to the name of your AD domain.
 
-sourcetype="DSS Imaging Log" "was successfully authenticated." | rex "(?i)The user '(?P<USERNAME>[^']+)" | eval USERNAME=lower(USERNAME) | top 50 USERNAME
+index="yourindexhere" sourcetype="yoursourcetypehere" "was successfully authenticated." NOT "localadmin"  | rex "(?i)The user '(?P<USERNAME>[^']+)" | eval USERNAME=lower(USERNAME) | eval USERNAME=ltrim(USERNAME, "domainprefixhere\^") | top 50 USERNAME
