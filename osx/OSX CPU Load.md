@@ -1,7 +1,7 @@
 ># macOS % CPU Load
 -----
 
-### - Based on a (scripts) data input configured from the [Splunk App for *Nix](https://splunkbase.splunk.com/app/273/) (included cpu.sh script)
+### - Based on (scripts) data input configured from the [Splunk App for *Nix](https://splunkbase.splunk.com/app/273/) (included cpu.sh script)
 
 
 ```
